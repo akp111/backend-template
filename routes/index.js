@@ -1,7 +1,7 @@
-const HelloRoute = require("./Hello")
+const ProxyRoute = require("./Proxy")
 
 function initialiseRoutes(app){
 
-   app.use("/hello", HelloRoute);
+   app.use("/", ProxyRoute);
 }
 exports.default = initialiseRoutes;

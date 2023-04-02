@@ -1,1 +1,1 @@
-module.exports.Hello = require('./Hello');
+module.exports.Proxy = require('./Proxy');
